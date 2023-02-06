@@ -1,0 +1,69 @@
+
+.left_wrapper{
+background-image: url('./images/bg-main-desktop.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+h6{
+    font-size: 10px;
+}
+.boutonconf{
+    background-color: #421a33;
+    color: white;
+}
+.fatre{
+    color: purple ;
+}
+
+.card1{
+    background-image: url('./images/bg-card-front.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: -130px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card2{
+    background-image: url('./images/bg-card-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: -200px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1098px) and (min-width: 768px)   {
+    .card2{
+     
+        right: -130px;
+      
+    }
+}
+@media only screen and (max-width: 767px)  {
+    .card1{
+   position: relative;
+        right: 0px;
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        z-index: 20;
+        margin: 105px auto 0  auto;
+
+    }
+    .card2{
+
+        right: 0px;
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+}
+.none{
+    display: none !important;
+}
